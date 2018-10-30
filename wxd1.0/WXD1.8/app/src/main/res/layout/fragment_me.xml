@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fuzhuangfaqianla.xinhuahua.ui.me.MeFragment"
+    android:orientation="vertical"
+    android:background="@color/color_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="226dp"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/me_bg">
+
+        <ImageView
+            android:id="@+id/me_fragment_iv_avatar"
+            android:layout_width="79dp"
+            android:layout_height="79dp"
+            android:src="@drawable/ic_avatar_blue"
+            android:layout_centerInParent="true"
+            />
+
+        <TextView
+            android:id="@+id/me_fragment_tv_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点击登录"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/me_fragment_iv_avatar"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/me_fragment_ll_user_info"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        style="@style/padding"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/me_identify" />
+
+        <TextView
+            style="@style/text_14_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="个人信息" />
+
+        <ImageView
+            android:layout_width="8dp"
+            android:layout_height="14dp"
+            android:src="@drawable/icon_list_in" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/me_fragment_ll_browse"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        style="@style/padding"
+        android:gravity="center"
+        android:background="@color/white"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/me_apply"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="浏览足迹"
+            style="@style/text_14_3"/>
+        <ImageView
+            android:layout_width="8dp"
+            android:layout_height="14dp"
+            android:src="@drawable/icon_list_in"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/me_fragment_ll_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        style="@style/padding"
+        android:gravity="center"
+        android:background="@color/white"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/feedback"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="反馈意见"
+            style="@style/text_14_3"/>
+        <ImageView
+            android:layout_width="8dp"
+            android:layout_height="14dp"
+            android:src="@drawable/icon_list_in"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/me_fragment_ll_setting"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        style="@style/padding"
+        android:gravity="center"
+        android:background="@color/white"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/me_setting"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="设置"
+            style="@style/text_14_3"/>
+        <ImageView
+            android:layout_width="8dp"
+            android:layout_height="14dp"
+            android:src="@drawable/icon_list_in"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

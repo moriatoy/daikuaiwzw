@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:id="@+id/index_fragment_item_applet_ll1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:visibility="gone"
+            style="@style/click_bg">
+
+            <com.commonlib.widget.CircleImageView
+                android:id="@+id/index_fragment_item_applet_iv1"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:src="@drawable/logo"
+                />
+
+            <TextView
+                android:id="@+id/index_fragment_item_applet_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_14_3"
+                android:text="AAA"
+                android:layout_marginTop="8dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/index_fragment_item_applet_ll2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:visibility="gone"
+            style="@style/click_bg">
+
+            <com.commonlib.widget.CircleImageView
+                android:id="@+id/index_fragment_item_applet_iv2"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:src="@drawable/logo"
+                />
+
+            <TextView
+                android:id="@+id/index_fragment_item_applet_tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_14_3"
+                android:text="AAA"
+                android:layout_marginTop="8dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/index_fragment_item_applet_ll3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:visibility="gone"
+            style="@style/click_bg">
+
+            <com.commonlib.widget.CircleImageView
+                android:id="@+id/index_fragment_item_applet_iv3"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:src="@drawable/logo"
+                />
+
+            <TextView
+                android:id="@+id/index_fragment_item_applet_tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_14_3"
+                android:text="AAA"
+                android:layout_marginTop="8dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/index_fragment_item_applet_ll4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:visibility="gone"
+            style="@style/click_bg">
+
+            <com.commonlib.widget.CircleImageView
+                android:id="@+id/index_fragment_item_applet_iv4"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:src="@drawable/logo"
+                />
+
+            <TextView
+                android:id="@+id/index_fragment_item_applet_tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_14_3"
+                android:text="AAA"
+                android:layout_marginTop="8dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

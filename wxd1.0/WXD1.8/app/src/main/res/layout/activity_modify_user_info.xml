@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    tools:context="com.fuzhuangfaqianla.xinhuahua.ui.me.ModifyUserInfoActivity"
+    android:orientation="vertical"
+    android:background="@color/color_background"
+    android:fitsSystemWindows="true">
+
+    <include layout="@layout/comm_title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        style="@style/padding"
+        android:background="@color/white"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="姓名"
+            style="@style/text_16_3"
+            android:gravity="left"
+            />
+        <EditText
+            android:id="@+id/modify_user_info_activity_et_name"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_marginLeft="10dp"
+            android:hint="请输入您的姓名"
+            android:textColorHint="@color/color_999999"
+            style="@style/text_16_3"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/color_separator"
+        android:layout_marginLeft="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        style="@style/padding"
+        android:background="@color/white"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="身份证号"
+            style="@style/text_16_3"
+            android:gravity="left"
+            />
+        <EditText
+            android:id="@+id/modify_user_info_activity_et_idnumber"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_marginLeft="10dp"
+            android:hint="请输入您的身份证号"
+            style="@style/text_16_3"
+            android:textColorHint="@color/color_999999"
+            android:inputType="number"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/text_12_9"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_marginTop="11dp"
+        android:text="姓名不可修改,请核对无误后再确认,姓名与身份证号不匹配不能通过审核"
+        android:visibility="gone"
+        />
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/modify_user_info_activity_btn"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="确认"
+        android:textSize="16sp"
+        fancy:fb_radius="6dp"
+        fancy:fb_textColor="@color/white"
+        fancy:fb_defaultColor="@color/colorMain"
+        fancy:fb_disabledTextColor="@color/white"
+        fancy:fb_disabledColor="@color/color_8bdafb"
+        fancy:fb_focusColor="#008fff"
+        android:enabled="false"
+        android:clickable="false"
+        ></mehdi.sakout.fancybuttons.FancyButton>
+
+</LinearLayout>

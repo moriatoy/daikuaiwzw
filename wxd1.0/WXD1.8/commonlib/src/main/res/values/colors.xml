@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#55ffffff</color>
+    <color name="white_alpha">#60ffffff</color>
+
+    //背景颜色
+    <color name="color_background">#fafafa</color>
+</resources>

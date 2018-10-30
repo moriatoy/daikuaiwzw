@@ -1,0 +1,180 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.fuzhuangfaqianla.xinhuahua.ui.loan.LoanFragment"
+    android:background="@color/color_background">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/loan_fragment_activity_appbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp"
+        android:background="#00000000">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/loan_fragment_activity_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            style="@style/Toolbar.MyStyle"
+            android:background="@color/white">
+
+            <include layout="@layout/comm_title" />
+
+        </android.support.v7.widget.Toolbar>
+
+        <LinearLayout
+            android:id="@+id/loan_fragment_ll_choose"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:id="@+id/loan_fragment_activity_ll_choose1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                style="@style/click_bg">
+
+                <TextView
+                    android:id="@+id/loan_fragment_activity_tv_choose1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="身份"
+                    style="@style/text_14_3"
+                    />
+
+                <ImageView
+                    android:id="@+id/loan_fragment_activity_iv_choose1"
+                    android:layout_width="11dp"
+                    android:layout_height="11dp"
+                    android:layout_marginLeft="6dp"
+                    android:src="@drawable/arrow_down_gray"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/loan_fragment_activity_ll_choose2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                style="@style/click_bg">
+
+                <TextView
+                    android:id="@+id/loan_fragment_activity_tv_choose2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="贷款类型"
+                    style="@style/text_14_3"
+                    />
+
+                <ImageView
+                    android:id="@+id/loan_fragment_activity_iv_choose2"
+                    android:layout_width="11dp"
+                    android:layout_height="11dp"
+                    android:layout_marginLeft="6dp"
+                    android:src="@drawable/arrow_down_gray"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/loan_fragment_activity_ll_choose3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                style="@style/click_bg">
+
+                <TextView
+                    android:id="@+id/loan_fragment_activity_tv_choose3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="金额"
+                    style="@style/text_14_3"
+                    />
+
+                <ImageView
+                    android:id="@+id/loan_fragment_activity_iv_choose3"
+                    android:layout_width="11dp"
+                    android:layout_height="11dp"
+                    android:layout_marginLeft="6dp"
+                    android:src="@drawable/arrow_down_gray"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/color_separator"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout
+            android:id="@+id/loan_fragment_refreshlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/loan_fragment_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+        </com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout>
+
+        <FrameLayout
+            android:id="@+id/loan_fragment_activity_fl_placeholder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/loan_fragment_ll_show_choose"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/color_separator" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <View
+                    android:id="@+id/loan_fragment_ll_show_choose_shadow"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#55000000"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/loan_fragment_recyclerview_choose"
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp"></android.support.v7.widget.RecyclerView>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</android.support.design.widget.CoordinatorLayout>

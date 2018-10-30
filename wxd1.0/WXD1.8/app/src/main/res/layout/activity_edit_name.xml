@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fuzhuangfaqianla.xinhuahua.ui.me.EditNameActivity"
+    android:background="@color/color_background"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <include layout="@layout/comm_title"></include>
+
+    <com.commonlib.widget.ClearEditText
+        android:id="@+id/edit_name_activity_et"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:hint="请输入昵称"
+        android:textColorHint="@color/color_999999"
+        style="@style/text_14_3"
+        />
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fuzhuangfaqianla.xinhuahua.ui.index.IndexFragment"
+    android:background="@color/color_background">
+
+    <com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout
+        android:id="@+id/index_fragment_refreshlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/index_fragment_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ></android.support.v7.widget.RecyclerView>
+
+    </com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout>
+
+    <FrameLayout
+        android:id="@+id/index_fragment_fl"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/index_fragment_fl_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="首页"
+            android:layout_gravity="center"
+            android:textSize="17sp"
+            android:textColor="@color/color_33"
+            />
+
+        <View
+            android:id="@+id/index_fragment_fl_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_separator"
+            android:layout_gravity="bottom"/>
+
+    </FrameLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

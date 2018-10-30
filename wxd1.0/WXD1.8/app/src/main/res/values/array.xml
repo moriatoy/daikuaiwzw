@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="segment_control_arrays_0">
+        <item>已申请</item>
+        <item>已浏览</item>
+    </array>
+
+</resources>

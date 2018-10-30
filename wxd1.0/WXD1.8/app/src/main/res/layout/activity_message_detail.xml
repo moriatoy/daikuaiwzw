@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fuzhuangfaqianla.xinhuahua.ui.main.MessageDetailActivity"
+    android:orientation="vertical"
+    android:background="@color/color_background"
+    android:fitsSystemWindows="true">
+
+    <include layout="@layout/comm_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            style="@style/padding">
+
+            <TextView
+                android:id="@+id/activity_message_detail_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="公告"
+                style="@style/text_16_3"
+                android:layout_marginTop="28dp"
+                />
+
+            <TextView
+                android:id="@+id/activity_message_detail_time1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2017-6-21"
+                style="@style/text_12_9"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_separator" />
+
+            <TextView
+                android:id="@+id/activity_message_detail_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AAA"
+                style="@style/text_14_6"
+                android:layout_marginTop="17dp"
+                />
+
+            <TextView
+                android:id="@+id/activity_message_detail_tv_created_by"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="花钱啦团队"
+                style="@style/text_12_9"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="end"
+                />
+
+            <TextView
+                android:id="@+id/activity_message_detail_time2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2017-6-21"
+                style="@style/text_12_9"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="end"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

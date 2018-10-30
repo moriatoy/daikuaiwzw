@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="colorAccent">#00aeff</color>
+    <color name="colorPrimary">#00aeff</color>
+    <color name="colorPrimaryDark">#55ffffff</color>
+
+    //主颜色
+    <!--<color name="colorMain">#1abc9c</color>-->
+    <!--<color name="colorMain">#1fb8fc</color>-->
+    <color name="colorMain">#00aeff</color>
+    //白色
+    <color name="color_white">#fff</color>
+    <color name="color_black">#000000</color>
+    //背景颜色
+    <color name="color_background">#fafafa</color>
+    <color name="color_808080">#808080</color>
+    <color name="color_b2b2b2">#b2b2b2</color>
+    <color name="color_b3b3b3">#b3b3b3</color>
+    <color name="color_d4d4d4">#d4d4d4</color>
+    <color name="color_4d4d4d">#4d4d4d</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_separator">#efefef</color>
+    <color name="color_tabbar_line">#d1d1d1</color>
+    <color name="colorGray">#666666</color>
+    <color name="colorBlue">#008bd5</color>
+    <color name="colorGray6">#cccccc</color>
+    <color name="color_33">#333333</color>
+    <color name="color_3f">#3f3f3f</color>
+    <color name="color_f5">#f5f5f5</color>
+    <color name="color_66">#666666</color>
+    <color name="color_a6">#a6a6a6</color>
+    <color name="color_eff6ff">#eff6ff</color>
+    <color name="color_e3ebf3">#e3ebf3</color>
+    <color name="color_4a">#4a4a4a</color>
+    <color name="color_fa">#fafafa</color>
+    <color name="color_f5a623">#f5a623</color>
+    <color name="color_f33d3d">#f33d3d</color>
+    <color name="color_2a">#2a2a2a</color>
+    <color name="color_8bdafb">#8bdafb</color>
+    <color name="color_2a50b2">#2a50b2</color>
+    <color name="color_4273dd">#4273dd</color>
+    <color name="color_f8c86c">#f8c86c</color>
+    <color name="color_75f0e5">#75f0e5</color>
+    <color name="color_fecfee">#fecfee</color>
+    <color name="color_f7cb69">#f7cb69</color>
+</resources>

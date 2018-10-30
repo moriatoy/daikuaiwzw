@@ -1,0 +1,222 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fuzhuangfaqianla.xinhuahua.ui.me.IdentityInfoFragment"
+    android:orientation="vertical"
+    android:background="@color/color_background">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:id="@+id/identity_info_fragment_ll_ocp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                style="@style/padding"
+                android:gravity="center_vertical"
+                android:background="?android:attr/selectableItemBackground">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="职业身份"
+                    style="@style/text_16_3"
+                    />
+
+                <TextView
+                    android:id="@+id/identity_info_fragment_tv_ocp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="请选择"
+                    style="@style/text_16_6"
+                    android:gravity="right"
+                    />
+
+                <ImageView
+                    android:layout_width="8dp"
+                    android:layout_height="14dp"
+                    android:src="@drawable/icon_list_in"
+                    android:layout_marginLeft="8dp"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/color_separator"
+                android:layout_marginLeft="15dp"/>
+
+            <LinearLayout
+                android:id="@+id/identity_info_fragment_ll_monthlyIncome"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                style="@style/padding"
+                android:gravity="center_vertical"
+                android:background="?android:attr/selectableItemBackground">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="月收入"
+                    style="@style/text_16_3"
+                    />
+
+                <TextView
+                    android:id="@+id/identity_info_fragment_tv_monthlyIncome"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="请选择"
+                    style="@style/text_16_6"
+                    android:gravity="right"
+                    />
+
+                <ImageView
+                    android:layout_width="8dp"
+                    android:layout_height="14dp"
+                    android:src="@drawable/icon_list_in"
+                    android:layout_marginLeft="8dp"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/color_separator"
+                android:layout_marginLeft="15dp"/>
+
+            <LinearLayout
+                android:id="@+id/identity_info_fragment_ll_incomeForm"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                style="@style/padding"
+                android:gravity="center_vertical"
+                android:background="?android:attr/selectableItemBackground">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="收入形式"
+                    style="@style/text_16_3"
+                    />
+
+                <TextView
+                    android:id="@+id/identity_info_fragment_tv_incomeForm"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="请选择"
+                    style="@style/text_16_6"
+                    android:gravity="right"
+                    />
+
+                <ImageView
+                    android:layout_width="8dp"
+                    android:layout_height="14dp"
+                    android:src="@drawable/icon_list_in"
+                    android:layout_marginLeft="8dp"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/color_separator"
+                android:layout_marginLeft="15dp"/>
+
+            <LinearLayout
+                android:id="@+id/identity_info_fragment_ll_localSocSec"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                style="@style/padding"
+                android:gravity="center_vertical"
+                android:background="?android:attr/selectableItemBackground">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="本地社保"
+                    style="@style/text_16_3"
+                    />
+
+                <TextView
+                    android:id="@+id/identity_info_fragment_tv_localSocSec"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="请选择"
+                    style="@style/text_16_6"
+                    android:gravity="right"
+                    />
+
+                <ImageView
+                    android:layout_width="8dp"
+                    android:layout_height="14dp"
+                    android:src="@drawable/icon_list_in"
+                    android:layout_marginLeft="8dp"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/color_separator"
+                android:layout_marginLeft="15dp"/>
+
+            <LinearLayout
+                android:id="@+id/identity_info_fragment_ll_localProvidentFund"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                style="@style/padding"
+                android:gravity="center_vertical"
+                android:background="?android:attr/selectableItemBackground">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="本地公积金"
+                    style="@style/text_16_3"
+                    />
+
+                <TextView
+                    android:id="@+id/identity_info_fragment_tv_localProvidentFund"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="请选择"
+                    style="@style/text_16_6"
+                    android:gravity="right"
+                    />
+
+                <ImageView
+                    android:layout_width="8dp"
+                    android:layout_height="14dp"
+                    android:src="@drawable/icon_list_in"
+                    android:layout_marginLeft="8dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

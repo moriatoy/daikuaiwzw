@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fuzhuangfaqianla.xinhuahua.ui.product.ProductActivity"
+    android:fitsSystemWindows="true"
+    android:background="@color/color_background"
+    android:id="@+id/product_activity_coo">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/product_activity_appbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/product_activity_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            style="@style/Toolbar.MyStyle"
+            android:background="@color/white">
+
+            <include layout="@layout/comm_title"/>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/product_activity_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:descendantFocusability="beforeDescendants"
+        android:fastScrollEnabled="false"
+        android:layout_marginBottom="48dp"
+        ></android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:id="@+id/product_activity_ll_collapsed_info"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        style="@style/padding"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:alpha="0">
+
+        <TextView
+            android:id="@+id/product_activity_ll_collapsed_info_tv_range"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            style="@style/text_16_3"
+            />
+
+        <TextView
+            android:id="@+id/product_activity_ll_collapsed_info_tv_ratetype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="日利率"
+            style="@style/text_12_6"
+            android:paddingLeft="15dp"
+            />
+
+        <TextView
+            android:id="@+id/product_activity_ll_collapsed_info_tv_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/text_16_3"
+            android:layout_marginLeft="9dp"
+            />
+
+    </LinearLayout>
+
+    <!--app:behavior_peekHeight="0dp"  app:layout_behavior="@string/bottom_sheet_behavior"-->
+
+    <TextView
+        android:id="@+id/product_activity_tv_getmoney"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorMain"
+        android:text="马上拿钱"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        />
+
+    <!--placeholder-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/comm_title"
+            android:visibility="invisible"/>
+
+        <FrameLayout
+            android:id="@+id/product_activity_fl_placeholder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></FrameLayout>
+
+    </LinearLayout>
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fuzhuangfaqianla.xinhuahua.ui.me.VipActivity"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <include layout="@layout/comm_title"/>
+
+    <ImageView
+        android:id="@+id/communication_activity_iv_code"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/qrcode"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/text_14_3"
+        android:text="关注微信公众号：花钱啦众惠，每日更新贷款新口子"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/text_12_9"
+        android:text="(长按图片可保存到手机,点击QQ群可进行复制)"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginTop="3dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/communication_activity_ll_code"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        style="@style/padding"
+        android:gravity="center_vertical"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QQ群"
+            style="@style/text_16_6"
+            />
+
+        <TextView
+            android:id="@+id/communication_activity_tv_code"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="514679176"
+            style="@style/text_16_3"
+            android:gravity="right"
+            />
+
+        <ImageView
+            android:layout_width="8dp"
+            android:layout_height="14dp"
+            android:src="@drawable/icon_list_in"
+            android:layout_marginLeft="8dp"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/color_separator"
+        android:layout_marginLeft="15dp"/>
+
+</LinearLayout>

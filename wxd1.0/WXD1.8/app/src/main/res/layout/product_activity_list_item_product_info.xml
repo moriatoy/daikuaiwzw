@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        style="@style/padding"
+        android:paddingTop="25dp"
+        android:paddingBottom="21dp"
+        >
+
+        <com.commonlib.widget.CircleImageView
+            android:id="@+id/product_activity_list_item_product_info_iv_icon"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/logo"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="11dp">
+
+            <TextView
+                android:id="@+id/product_activity_list_item_product_info_tv_range"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_16_3"
+                />
+
+            <TextView
+                android:id="@+id/product_activity_list_item_product_info_tv_payment_method"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_14_6"
+                android:layout_marginTop="2dp"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="推荐指数："
+                    style="@style/text_14_9"
+                    />
+
+                <com.willy.ratingbar.BaseRatingBar
+                    android:id="@+id/product_activity_list_item_product_info_star"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:numStars="5"
+                    app:starPadding="2.6dp"
+                    app:drawableEmpty="@drawable/star_grey"
+                    app:drawableFilled="@drawable/star_hover"
+                    app:touchable="false"
+                    ></com.willy.ratingbar.BaseRatingBar>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:id="@+id/product_activity_list_item_product_info_tv_rateType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="日利率"
+                style="@style/text_12_6"
+                />
+
+            <TextView
+                android:id="@+id/product_activity_list_item_product_info_tv_rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_16_3"
+                android:layout_marginTop="5dp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="32dp"
+            android:background="@color/color_separator"
+            android:layout_gravity="center_vertical"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="期限范围"
+                style="@style/text_12_6"
+                />
+
+            <TextView
+                android:id="@+id/product_activity_list_item_product_info_tv_deadline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_16_3"
+                android:layout_marginTop="5dp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="32dp"
+            android:background="@color/color_separator"
+            android:layout_gravity="center_vertical"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="申请人数"
+                style="@style/text_12_6"
+                />
+
+            <TextView
+                android:id="@+id/product_activity_list_item_product_info_tv_applicants"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_16_3"
+                android:layout_marginTop="5dp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/color_background"/>
+
+</LinearLayout>

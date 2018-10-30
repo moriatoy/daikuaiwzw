@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:id="@+id/inflate_recomm_activity_list_item__ll"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        style="@style/padding"
+        android:gravity="center_vertical"
+        android:background="?android:attr/selectableItemBackground"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/inflate_recomm_activity_list_item_iv"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/logo"
+                />
+
+            <TextView
+                android:id="@+id/inflate_recomm_activity_list_item_tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_12_3"
+                android:text="AAA"
+                android:layout_marginTop="7dp"
+                android:maxWidth="50dp"
+                android:lines="1"
+                android:ellipsize="end"
+                android:layout_marginBottom="1dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="14dp">
+
+            <TextView
+                android:id="@+id/inflate_recomm_activity_list_item_tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_16_3"
+                android:text="BBB"
+                android:layout_marginTop="2dp"
+                />
+
+            <TextView
+                android:id="@+id/inflate_recomm_activity_list_item_tv_info"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                style="@style/text_14_6"
+                android:text="CCC"
+                android:lines="1"
+                android:ellipsize="end"
+                android:layout_marginTop="3dp"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/text_14_6"
+                    android:text="期限"
+                    />
+
+                <TextView
+                    android:id="@+id/inflate_recomm_activity_list_item_tv_deadline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="DDD"
+                    android:textColor="@color/color_f5a623"
+                    android:layout_marginLeft="5dp"
+                    android:lines="1"
+                    android:ellipsize="end"
+                    />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/color_separator"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="1dp"/>
+
+                <TextView
+                    android:id="@+id/inflate_recomm_activity_list_item_tv_rateType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/text_14_6"
+                    android:text="月利率"
+                    />
+
+                <TextView
+                    android:id="@+id/inflate_recomm_activity_list_item_tv_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="EEE"
+                    android:textColor="@color/color_f33d3d"
+                    android:layout_marginLeft="5dp"
+                    android:lines="1"
+                    android:ellipsize="end"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:src="@drawable/icon_list_in"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/color_separator"
+        android:layout_marginLeft="15dp"/>
+
+</LinearLayout>

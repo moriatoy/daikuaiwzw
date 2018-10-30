@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">commonlib</string>
+
+    <!-- 系统级别数据提示信息 -->
+    <string name="tip_finishapp">请再按一次返回键退出!</string>
+
+    <!-- 输入框提示 -->
+    <string name="tip_input_phone">请输入手机号</string>
+    <string name="tip_input_loginId">请输入用户名</string>
+    <string name="tip_input_11_phone">请输入11位的手机号</string>
+    <string name="tip_input_code">请输入验证码</string>
+    <string name="tip_input_length_code">请输入6位的验证码</string>
+    <string name="tip_input_length_local_code">请输入5位的校验码</string>
+    <string name="tip_input_password">请输入密码</string>
+    <string name="tip_input_length_password">请输入6-16位的密码</string>
+    <string name="tip_input_old_password">请输入旧密码</string>
+    <string name="tip_input_length_old_password">请输入6-16位的旧密码</string>
+    <string name="tip_input_new_password">请输入新密码</string>
+    <string name="tip_input_length_new_password">请输入6-16位的新密码</string>
+    <string name="tip_input_confirm_password">请输入确认密码</string>
+    <string name="tip_input_length_confirm_password">请输入6-16位的确认密码</string>
+    <string name="tip_input_email">请输入Email</string>
+    <string name="tip_input_correct_email">请输入正确的Email</string>
+    <string name="tip_input_name">请输入姓名</string>
+    <string name="tip_password_different">两次输入的密码不一致</string>
+    <string name="tip_input_age">请输入年龄</string>
+    <string name="tip_input_correct_age">请输入正确的年龄</string>
+    <string name="tip_input_telphone">请输入电话号码</string>
+    <string name="tip_input_6_telphone">请输入不少于6位的电话号码</string>
+    <string name="tip_input_bankcard">请输入银行卡号</string>
+    <string name="tip_input_16_19_bankcard">请输入16位或19位的银行卡号</string>
+    <string name="tip_input_idcard">请输入身份证号</string>
+    <string name="tip_input_15_18_idcard">请输入15位或18位的身份证号</string>
+    <string name="tip_input_weight">请输入体重</string>
+    <string name="tip_input_correct_weight">请输入正确的体重</string>
+    <string name="tip_input_height">请输入身高</string>
+    <string name="tip_input_correct_height">请输入正确的身高</string>
+    <string name="tip_input_wechat">请输入微信号</string>
+    <string name="tip_input_qq">请输入QQ号</string>
+    <string name="tip_input_address">请输入地址</string>
+    <string name="tip_input_feedback">请输入意见反馈</string>
+    <string name="tip_input_title">请输入标题</string>
+    <string name="tip_input_content">请输入内容</string>
+    <string name="tip_input_chattext">请输入聊天内容</string>
+    <string name="tip_input_search">请输入搜索内容</string>
+
+</resources>

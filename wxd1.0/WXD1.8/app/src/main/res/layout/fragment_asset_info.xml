@@ -1,0 +1,263 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fuzhuangfaqianla.xinhuahua.ui.me.AssetInfoFragment"
+    android:orientation="vertical"
+    android:background="@color/color_background">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:id="@+id/asset_info_fragment_ll_creditCardLimit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                style="@style/padding"
+                android:gravity="center_vertical"
+                android:background="?android:attr/selectableItemBackground">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="信用卡额度"
+                    style="@style/text_16_3"
+                    />
+
+                <TextView
+                    android:id="@+id/asset_info_fragment_tv_creditCardLimit"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="请选择"
+                    style="@style/text_16_6"
+                    android:gravity="right"
+                    />
+
+                <ImageView
+                    android:layout_width="8dp"
+                    android:layout_height="14dp"
+                    android:src="@drawable/icon_list_in"
+                    android:layout_marginLeft="8dp"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/color_separator"
+                android:layout_marginLeft="15dp"/>
+
+            <LinearLayout
+                android:id="@+id/asset_info_fragment_ll_property"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                style="@style/padding"
+                android:gravity="center_vertical"
+                android:background="?android:attr/selectableItemBackground">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="名下房产"
+                    style="@style/text_16_3"
+                    />
+
+                <TextView
+                    android:id="@+id/asset_info_fragment_tv_property"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="请选择"
+                    style="@style/text_16_6"
+                    android:gravity="right"
+                    />
+
+                <ImageView
+                    android:layout_width="8dp"
+                    android:layout_height="14dp"
+                    android:src="@drawable/icon_list_in"
+                    android:layout_marginLeft="8dp"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/color_separator"
+                android:layout_marginLeft="15dp"/>
+
+            <LinearLayout
+                android:id="@+id/asset_info_fragment_ll_car"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                style="@style/padding"
+                android:gravity="center_vertical"
+                android:background="?android:attr/selectableItemBackground">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="名下车产"
+                    style="@style/text_16_3"
+                    />
+
+                <TextView
+                    android:id="@+id/asset_info_fragment_tv_car"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="请选择"
+                    style="@style/text_16_6"
+                    android:gravity="right"
+                    />
+
+                <ImageView
+                    android:layout_width="8dp"
+                    android:layout_height="14dp"
+                    android:src="@drawable/icon_list_in"
+                    android:layout_marginLeft="8dp"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/color_separator"
+                android:layout_marginLeft="15dp"/>
+
+            <LinearLayout
+                android:id="@+id/asset_info_fragment_ll_isLoanSuccess"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                style="@style/padding"
+                android:gravity="center_vertical"
+                android:background="?android:attr/selectableItemBackground">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="是否成功贷款"
+                    style="@style/text_16_3"
+                    />
+
+                <TextView
+                    android:id="@+id/asset_info_fragment_tv_isLoanSuccess"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="请选择"
+                    style="@style/text_16_6"
+                    android:gravity="right"
+                    />
+
+                <ImageView
+                    android:layout_width="8dp"
+                    android:layout_height="14dp"
+                    android:src="@drawable/icon_list_in"
+                    android:layout_marginLeft="8dp"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/color_separator"
+                android:layout_marginLeft="15dp"/>
+
+            <LinearLayout
+                android:id="@+id/asset_info_fragment_ll_psnlIns"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                style="@style/padding"
+                android:gravity="center_vertical"
+                android:background="?android:attr/selectableItemBackground">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="个人保险"
+                    style="@style/text_16_3"
+                    />
+
+                <TextView
+                    android:id="@+id/asset_info_fragment_tv_psnlIns"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="请选择"
+                    style="@style/text_16_6"
+                    android:gravity="right"
+                    />
+
+                <ImageView
+                    android:layout_width="8dp"
+                    android:layout_height="14dp"
+                    android:src="@drawable/icon_list_in"
+                    android:layout_marginLeft="8dp"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/color_separator"
+                android:layout_marginLeft="15dp"/>
+
+            <LinearLayout
+                android:id="@+id/asset_info_fragment_ll_creditRecord"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                style="@style/padding"
+                android:gravity="center_vertical"
+                android:background="?android:attr/selectableItemBackground">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="信用记录"
+                    style="@style/text_16_3"
+                    />
+
+                <TextView
+                    android:id="@+id/asset_info_fragment_tv_creditRecord"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="请选择"
+                    style="@style/text_16_6"
+                    android:gravity="right"
+                    />
+
+                <ImageView
+                    android:layout_width="8dp"
+                    android:layout_height="14dp"
+                    android:src="@drawable/icon_list_in"
+                    android:layout_marginLeft="8dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>
