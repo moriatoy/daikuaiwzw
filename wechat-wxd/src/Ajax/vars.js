@@ -1,7 +1,7 @@
 import { NO, dealCode } from '../Utils/utils.js'
-// export const server_url = '/api/wx-wwzz'
+export const server_url = '/api/wx-wwzz'
 // export const server_url = '/api'
-export const server_url = '/wx-wwzz'
+// export const server_url = '/wx-wwzz'
 // export const server_url = ''
 
 export const failAction = () => {
