@@ -765,14 +765,17 @@ export default {
     }else{
       self.getAd();
     }
-    //self.getAd();
+
     this.getCarousel();
-    // this.getLoanProduct();
+
     this.getAdSpace();
     this.getNotNullRecommendTags();
     this.rollFun();
     this.getPop();
     this.getLoanProductByPosition();
+
+    //self.getAd();
+    // this.getLoanProduct();
     // 登录信息
     dumbWrapper({
       promise:getUserInfo({}),
