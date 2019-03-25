@@ -29,16 +29,17 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-        '/api/**': {
+        '/dc/**': {
             // target: 'http://wanxiangdai.moovi-tech.com',
             // target:'http://dkcs.chendind.com',
             // target:'http://192.168.1.245:8687/',
             // target:'http://47.97.182.57:8088/',
-            target:'http://jiedai.wawazz.cn/',
+            // target:'http://jiedai.wawazz.cn/',
+            target:'http://47.98.225.146:8081/',
 
           changeOrigin: true,
             pathRewrite: {
-              '^/api': '/'
+              '^/dc': '/dc'
             }
         }
     },
